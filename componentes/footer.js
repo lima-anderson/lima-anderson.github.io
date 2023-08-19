@@ -1,4 +1,3 @@
-// footer.js
 function createFooter() {
     const footer = document.createElement('footer');
     footer.className = 'footer bg-light';
@@ -10,10 +9,9 @@ function createFooter() {
     socialIcons.className = 'social-icons';
   
     const socialLinks = [
-      { iconClass: 'fab fa-facebook-f', url: '#' },
-      { iconClass: 'fab fa-twitter', url: '#' },
-      { iconClass: 'fab fa-instagram', url: '#' }
-      // Adicione outros ícones e URLs conforme necessário
+      { iconClass: 'fab fa-facebook-f', url: 'http://facebook.com/meunomede' },
+      { iconClass: 'fab fa-twitter', url: 'http://twitter.com/andersonli34' },
+      { iconClass: 'fab fa-instagram', url: 'http://instagram.com/andersonli34' }
     ];
   
     socialLinks.forEach(link => {
