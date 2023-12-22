@@ -1,11 +1,16 @@
-.sobre-section, .blog-section, .faq-section, .contato-section, .services-section {
+html, .sobre-section, .blog-section, .faq-section, .contato-section, .services-section {
   background-color: #f8f9fa;
 }
 
+#menu {
+  margin-top: 10px;
+}
 
 /* Estilos para a barra de navegação */
 .navbar {
     padding: 15px;
+    font-size: 20px;
+    
   }
 
 .navbar.navbar-expand-lg.navbar-light.bg-light {
