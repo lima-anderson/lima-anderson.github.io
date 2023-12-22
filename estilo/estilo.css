@@ -1,8 +1,22 @@
+.sobre-section, .blog-section, .faq-section, .contato-section, .services-section {
+  background-color: #f8f9fa;
+}
+
+
 /* Estilos para a barra de navegação */
 .navbar {
     padding: 15px;
   }
-  
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+  margin: 0px;
+  background-color: #f8f9fa;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
 /* Estilos para a marca do site */
 .navbar-brand {
   font-size: 1.5rem;
