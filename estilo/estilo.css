@@ -1,5 +1,9 @@
-html, .sobre-section, .blog-section, .faq-section, .contato-section, .services-section {
+body, html, .sobre-section, .blog-section, .faq-section, .contato-section, .services-section {
   background-color: #f8f9fa;
+}
+
+.services-section, .sobre-section, .blog-section, .faq-section, .contato-section {
+  padding-top: 15px;
 }
 
 #menu {
@@ -10,8 +14,7 @@ html, .sobre-section, .blog-section, .faq-section, .contato-section, .services-s
 .navbar {
     padding: 15px;
     font-size: 20px;
-    
-  }
+}
 
 .navbar.navbar-expand-lg.navbar-light.bg-light {
   margin: 0px;
